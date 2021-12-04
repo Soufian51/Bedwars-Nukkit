@@ -1,0 +1,26 @@
+---
+# Server to which they are transferred after the game is finished.
+fallback-server: "127.0.0.1:19132"
+
+# Teams: §0Black, §dPink, §5Magenta, §eYellow, §aGreen, §cRed, §9Blue, §6Orange
+teams: []
+
+# In which seconds section the materials should spawn.
+spawner:
+  bronze: 2
+  iron: 15
+  gold: 30
+
+# Example:
+# maps:
+#   - "Mario"
+#   - "Sunny"
+#   - "Winter"
+maps: []
+
+# How many players may be in a team.
+players-per-team: 4
+
+# The minimum number of players that must be online to start.
+min-players-for-start: 2
+...
